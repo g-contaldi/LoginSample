@@ -25,7 +25,7 @@ public class JstlExample extends HttpServlet {
 		list.add(new Person("diego armando", "maradona"));
 		req.setAttribute("list", list);
 
-		req.getRequestDispatcher("prova.jsp").forward(req, resp);
+		req.getRequestDispatcher("jstl.jsp").forward(req, resp);
 	}
 
 }

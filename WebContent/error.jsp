@@ -4,10 +4,19 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script	src="https://ajax.googleapis.com/ajax/libs/jquery/1.2.3/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 <title>Error</title>
 </head>
 <body>
-
-	<h1>Username o password sbagliata</h1>
+	<div class="container">
+		<div class="page-header">
+			<h2>Login form</h2>
+		</div>
+	</div>
+	<div class="container">
+		<h1 class="text-danger">Username o password sbagliata!</h1>
+	</div>
 </body>
 </html>
